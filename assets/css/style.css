@@ -3,11 +3,16 @@
     padding: 0;
     margin: 0;
 }
+/*added scroll behavior*/
+ html {
+     scroll-behavior:smooth;
+ }
 
 body {
     background-color: #d9dcd6;
 }
 
+/*header section*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,6 +80,7 @@ p {
     margin-left: 20px;
 }
 
+/*benefits section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -126,7 +132,7 @@ p {
     font-size: 36px;
 }
 
-
+/*footer section*/
 footer {
     padding: 30px;
     clear: both;
